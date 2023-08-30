@@ -12,7 +12,7 @@ Random account number generation for a realistic touch.
 Getting Started:
 
 Clone the repository to your local machine.
-Run the bank_simulation.py script using a Python interpreter.
+Run the Simple Banking App.py script using a Python interpreter.
 Follow the on-screen prompts to interact with the banking simulation.
 Usage:
 
