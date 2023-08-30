@@ -49,7 +49,7 @@ while task != "4":
         input("Thanks for banking with us!")
     if task == "3":
         while True:
-            AC = input("Please Enter the Account no. you wish to transfer to: ").strip()
+            AC = input("Please Enter the Account no. you wish to transfer to: ")
             if AC.isnumeric() and len(AC) == 16:
                 transfered =int(input(( f"> What's the Amount you wish to transfer: Rs.")))
                 print(f"> The amount Rs.{transfered} has been transfered to Account no.{AC}")
@@ -59,7 +59,7 @@ while task != "4":
                 break
             else:
                 print("The Account no. must be 16 digits (e.g 1023 1823 6612 9937) :")
-                AC = input("> Please enter a Valid Account no. : ").strip()
+                AC = input("> Please enter a Valid Account no. : ")
 
 
 
